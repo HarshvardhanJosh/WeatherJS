@@ -1,5 +1,5 @@
 # WeatherJS
-The WeatherJS web application built using HTML5/CSS3, Bootstrap4, Javascript and OpenWeatherMap API.
+The WeatherJS web application built using HTML5/CSS3, Bootstrap4, Vanilla JavaScript and OpenWeatherMap API.
 
 This project is built using HTML5/CSS3 and Bootstrap 4. It uses Vanilla Javascript to fetch data from OpenWeatherMap API. Data will be persisted to localStorage which means the data stored in the browser will persist even after the browser window is closed.
 
