@@ -6,11 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.1/cerulean/bootstrap.css" />
   <title>WeatherJS</title>
+  <style>
+    header{
+      background: url(./img/weather-img.jfif) no-repeat center center/cover;
+      height: 100vh;
+    }
+  </style>
 </head>
 
 <body>
+  <header>
   <div class="container">
-    <div class="row">
+    <div class="row p-4">
       <div class="col-md-6 mx-auto text-center bg-primary mt-5 p-5 rounded">
         <h1 id="w-location"></h1>
         <h2 class="text-dark" id="w-desc"></h2>
@@ -54,6 +61,7 @@
       </div>
     </div>
   </div>
+</header>
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
